@@ -534,4 +534,60 @@ body {
     .login-header h2 {
         font-size: 1.5rem;
     }
+  .about {
+  padding: 5rem 0;
+  background-color: white;
 }
+
+.about h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: var(--foreground);
+}
+
+.about p {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  font-size: 1.125rem;
+  color: var(--muted);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.about-card {
+  background-color: var(--card);
+  padding: 2rem;
+  border-radius: var(--radius);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-card i {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.about-card h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  color: var(--foreground);
+}
+
+.about-card p {
+  font-size: 1rem;
+  color: var(--muted);
+}
+
